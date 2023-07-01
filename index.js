@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 
-const folderPath = process.env.FILES_DIR;
+const folderPath = 'pathToYourMediaDirectory';
 
 try {
     const files = fs.readdirSync(folderPath);
